@@ -13,6 +13,7 @@
 /* Global styles */
 body { 
     font-family: var(--secondary-font);
+    background-color: var(--primary-color);
 }
 
 /* Navbar */
@@ -25,19 +26,19 @@ body {
 }
 
 /* Hero */
+
 .hero-container {
-    margin: 0;
     position: relative;
-    color: white;
 }
 
 .hero-image {
-    background-image: url(../images/jamie-street-ikv10lHZUas-unsplash.jpg);
-    height: 100vh;
+    background-image: url(../images/wade-austin-ellis-uRVJW8gNhb0-unsplash.jpg);
     background-size: cover;
     background-position: center;
+    padding-left: 30px !important;
     width: 100%;  
     display: block;  
+    height: 50rem;
 }
 
 .hero-text {
@@ -50,3 +51,28 @@ body {
     font-family: var(--primary-font);
     font-weight: 900 bold;
 }
+
+/* Main Section */
+#about {
+    background-color: var(--highlight-color);
+    background-size: cover;
+    width:auto;
+}
+
+.about-text {
+    font-family: var(--secondary-font);
+}
+
+.container {
+    display: flex;
+  flex-direction: column;
+}
+
+/* Media queries */ 
+
+@media (min-width: 768px) {
+    .container {
+      flex-direction: row; /* on large screens: side by side */
+    }
+  }
+  

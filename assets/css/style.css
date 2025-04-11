@@ -68,6 +68,16 @@ body {
   flex-direction: column;
 }
 
+/* Footer */
+#footer .table * {
+    background-color: transparent;
+}
+
+#footer .list {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
 /* Media queries */ 
 
 @media (min-width: 768px) {

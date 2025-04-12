@@ -6,8 +6,9 @@
 :root {
     --primary-font: "Gruppo", sans-serif; 
     --secondary-font: "Nunito", sans-serif;
-    --primary-color: #ffd9b3;
-    --highlight-color: #cce6ff;
+    --primary-color: #c08552;
+    --secondary-color: #f3e9dc;
+    --highlight-color: #5e3023;
 }
 
 /* Global styles */
@@ -32,10 +33,9 @@ body {
 }
 
 .hero-image {
-    background-image: url(../images/wade-austin-ellis-uRVJW8gNhb0-unsplash.jpg);
+    background-image: url(../images/Hero-image-1.jpg);
     background-size: cover;
     background-position: center;
-    padding-left: 30px !important;
     width: 100%;  
     display: block;  
     height: 50rem;
@@ -47,7 +47,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: var(--primary-font);
     font-weight: 900;
     text-shadow: 2px 2px 6px rgba(0,0,0,0.4)
@@ -57,11 +57,12 @@ body {
 #about {
     background-color: var(--highlight-color);
     background-size: cover;
-    width:auto;
+    margin: auto; 
 }
 
 .about-text {
     font-family: var(--secondary-font);
+    color: var(--secondary-color);
 }
 
 .container {

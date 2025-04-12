@@ -26,6 +26,11 @@ body {
     width: 25%;
 }
 
+.nav-logo {
+    height: 50px;
+    width: auto;
+}
+
 /* Hero */
 
 .hero-container {
@@ -33,12 +38,12 @@ body {
 }
 
 .hero-image {
-    background-image: url(../images/Hero-image-1.jpg);
+    background-image: url(../images/Hero-image-2.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;  
     display: block;  
-    height: 50rem;
+    height: 30rem;
 }
 
 .hero-text {
@@ -78,6 +83,11 @@ body {
     text-align: center;
   }
 
+  .footer-logo {
+    height: 150px;
+    margin-top: 15px;
+    width: auto;
+  }
 
 
 #footer .table * {

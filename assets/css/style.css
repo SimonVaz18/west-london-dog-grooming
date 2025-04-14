@@ -48,7 +48,7 @@ body {
 }
 
 .hero-image {
-    background-image: url(../images/hero-image-2.jpg);
+    background-image: url(../images/hero-image-2-copy.jpeg);
     background-size: cover;
     background-position: center;
     width: 100%;  
@@ -126,13 +126,14 @@ body {
 }
 
 /* Media queries */ 
-
+/* on large screens: side by side */
 @media (min-width: 768px) {
     .container {
-      flex-direction: row; /* on large screens: side by side */
+      flex-direction: row;
     }
   }
 
+  /* Footer responsiveness on larger screens*/
   @media (min-width: 768px) {
     #footer .container-fluid {
         flex-direction: row;
@@ -142,5 +143,3 @@ body {
         padding: 0 2rem;
     }
   }
-
-  @media (min)

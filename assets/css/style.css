@@ -125,6 +125,15 @@ body {
     color: #555;
 }
 
+/* Services & Prices */
+
+/* Header */
+
+#header {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
 /* Media queries */ 
 /* on large screens: side by side */
 @media (min-width: 768px) {

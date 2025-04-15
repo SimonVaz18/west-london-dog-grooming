@@ -169,6 +169,13 @@ body {
     color: var(--secondary-color);
 }
 
+.price-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0; 
+    font-weight: 500;
+}
+
 /* Media queries */ 
 /* on large screens: side by side */
 @media (min-width: 768px) {

@@ -184,10 +184,15 @@ body {
     font-weight: 500;
 }
 
+.card-link {
+    color: var(--primary-color);
+}
+
 /* Booking Page */
 .form-button {
     background-color: var(--primary-color);
     border-color: var(--highlight-color);
+    color: black;
 }
 
 .form-button:hover {

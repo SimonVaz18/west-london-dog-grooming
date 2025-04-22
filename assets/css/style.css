@@ -184,6 +184,16 @@ body {
     font-weight: 500;
 }
 
+/* Booking Page */
+.form-button {
+    background-color: var(--primary-color);
+    border-color: var(--highlight-color);
+}
+
+.form-button:hover {
+    background-color: var(--highlight-color) !important;
+}
+
 /* Media queries */ 
 /* on large screens: side by side */
 @media (min-width: 768px) {

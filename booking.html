@@ -58,7 +58,87 @@
  
  
       <!-- Booking form -->
-       
+
+       <main class="flex-grow-1 d-flex justify-content-center align-items-start pt-5 mt-5 px-3 mb-5">
+        <div class="w-100" style="max-width: 700px;">
+
+            <h1 class="text-center mb-4"> Book a Grooming Appointment</h1>
+
+            <form class="p-4 rounded shadow-sm" action="#" method="POST">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="firstname" class="form-label">First Name *</label>
+                        <input type-="text" class="form-control" id="firstname" name="firstname" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name *</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                      </div>
+                    </div>
+            
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email address *</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+            
+                    <div class="mb-3">
+                      <label for="phone" class="form-label">Phone Number *</label>
+                      <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="dogname" class="form-label">Dogs Name *</label>
+                      <input type="text" class="form-control" id="dogname" name="dogname" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="dogsize" class="form-label">Dog Size *</label>
+                        <select class="form-select" id="dogsize" name="dogsize" required>
+                            <option value="">Choose...</option>
+                            <option value="small">Tiny Tails (Small)</option>
+                            <option value="medium">Mid Mutts (Medium)</option>
+                            <option value="large">Big Barkers (Large)</option>
+                            <option value="xl">Gentle Giants (Extra Large)</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="service" class="form-label">Service *</label>
+                        <select class="form-select" id="service" name="service" required>
+                            <option value="">Choose...</option>
+                            <option value="freshen">Quick Freshen Up</option>
+                            <option value="bath">Bath & Brush</option>
+                            <option value="full">Full Groom</option>
+                            <option value="luxury">Luxury Spa Groom</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Preferred Date *</label>
+                        <input type="time" class="form-control" id="date" name="date" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="time" class="form-label">Preferred Time *</label>
+                        <input type="time" class="form-control" id="time" name="time" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Additional Notes *</label>
+                        <textarea class="form-control" id="notes" name="notes" rows="3" placeholder="Tell us anything special about your pup..."></textarea>
+                    </div>
+
+                    <buton type="submit" class="btn btn-primary w-100">Submit Booking</buton>
+                </div>
+            </form>
+
+        </div>
+       </main>
+
+
+
+       </section>
  
       <!-- Footer -->
        <footer id="footer" class="my-4 d-flex justify-content-between mt-auto">

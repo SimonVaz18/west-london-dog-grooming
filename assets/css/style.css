@@ -137,6 +137,13 @@ body {
 
 /* Cards */
 
+#services,
+#prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
     border: none;
     display: flex;
@@ -153,15 +160,16 @@ body {
     font-family: var(--primary-font);
 }
 
-.img-wrapper {
+/*.img-wrapper {
     max-width: 100%;
     height: 23vw; 
-}
+}*/
 
 .img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: bottom;
 }
 
 .card-body {
@@ -200,3 +208,15 @@ body {
         height: 160px;
     }
   }
+
+  /* 
+  @media (mad-width: 767px) {
+    .img-wrapper {
+        height: auto;
+    }
+
+    .img-wrapper img {
+        height: auto;
+        object-fit: contain;
+    }
+  } */

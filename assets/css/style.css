@@ -196,6 +196,16 @@ body {
 }
 
 /* Booking Page */
+.booking-header {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
+.form-label {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
 .form-button {
     background-color: var(--primary-color);
     border-color: var(--highlight-color);

@@ -86,5 +86,21 @@ The about section allows visitors to learn about the business by giving a brief 
 ### Desktop About
 ![desktop-about](assets/images/desktop-about.png)
 
+### Services/Prices Section
+The Services/Prices page is separate from the home page. It allows users to browse dog grooming packages and prices on the dedicate page. 
+- Two sections are shown on this page with both containing a group of four cards. All card templates use Bootstrap 5.3.
+- The first set of cards display the services the business offer. These move up from left to right from least complex to more complex service.
+- The second set of cards show the price of the above services depending on the size of the dog. Again, they move from left to right from smallest to biggest.
+- A button is shown on all cards which will direct users to the booking form once they have browsed the business' offerings.
+- All cards are fully responsive to all screensizes as shown below
 
+### Mobile Services Section
+![mobile-services](assets/images/mobile-services.png)
+### Desktop Services Section
+![Desktop-services](assets/images/desktop-services.png)
 
+### Booking Form 
+When a user selects the 'Book Now' link on either the hero image or any of the Services/Prices cards, they are taken to a booking form.
+- The booking form collect the users name, contact details, pet information and their preferred service/time.
+- All input fields are required to ensure all essential information is collected.
+- The form style is in-keeping with the wider website style. 

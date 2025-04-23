@@ -68,6 +68,17 @@ body {
     text-shadow: 2px 2px 6px rgba(0,0,0,0.4)
 }
 
+.book-home {
+    font-size: large;
+    color: var(--secondary-color);
+    font-family: var(--primary-color);
+    font: bold;
+}
+
+.book-home:hover {
+    color: var(--primary-color);
+}
+
 /* Main Section */
 #about {
     background-color: var(--highlight-color);
@@ -239,15 +250,3 @@ body {
         height: 160px;
     }
   }
-
-  /* 
-  @media (mad-width: 767px) {
-    .img-wrapper {
-        height: auto;
-    }
-
-    .img-wrapper img {
-        height: auto;
-        object-fit: contain;
-    }
-  } */

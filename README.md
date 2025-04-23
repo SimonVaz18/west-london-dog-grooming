@@ -125,3 +125,6 @@ At the bottom of every page is a fully featured footer. This contains contact de
 ## Code Validation
 
 ### HTML Validation
+![html-checker](assets/images/html-checker.png)
+
+### CSS Validation

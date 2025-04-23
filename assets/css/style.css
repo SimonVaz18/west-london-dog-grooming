@@ -199,7 +199,21 @@ body {
     background-color: var(--highlight-color) !important;
 }
 
+/* Thank you page */
+.thank-you-section {
+    padding-top: 100px;
+    color: var(--secondary-color);
+}
 
+.home-btn {
+    background-color: var(--primary-color);
+    border-color: var(--highlight-color);
+    color: black;
+}
+
+.home-btn {
+    background-color: var(--highlight-color) !important;
+}
 
 /* Media queries */ 
 /* on large screens: side by side */

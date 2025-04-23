@@ -104,9 +104,11 @@ When a user selects the 'Book Now' link on either the hero image or any of the S
 - The booking form collect the users name, contact details, pet information and their preferred service/time.
 - All input fields apart from the Additional Notes field are required to ensure all essential information is collected.
 - The form style is in-keeping with the wider website style. 
-- Once all fields 
+- Once all compulsory fields are filled and the user submits, a thank you page is shown to confirm to the user their booking request has been successfully sent.
+- The thank you page also has a link back to the home page for easy navigation. 
 
 ![booking-form](assets/images/booking-form.png)
+![thank-you-page](assets/images/thank-you-page.png)
 
 ## Footer Section 
 At the bottom of every page is a fully featured footer. This contains contact details, business hours, social media links and the business' full address with a recognisable location pin for added clarity.
@@ -120,7 +122,7 @@ At the bottom of every page is a fully featured footer. This contains contact de
 ![Desktop-footer](assets/images/desktop-footer.png)
 
 ## Testing 
-
+The site has been tested across multiple browsers including Chrome, Safari and Edge to ensure cross-browser compatibility. Additionally, it was also tested on various screen sizes to ensure all funtionality is fully responsive. 
 
 ## Code Validation
 
@@ -128,3 +130,36 @@ At the bottom of every page is a fully featured footer. This contains contact de
 ![html-checker](assets/images/html-checker.png)
 
 ### CSS Validation
+![css-checker](assets/images/css-checker.png)
+
+## Lighthouse Testing
+
+### Lighthouse Test Mobile - Homepage
+
+### Lighthouse Test Desktop - Homepage
+
+## Testing Errors/Bugs found 
+When running the website through the HTML/CSS checkers, a few issues were found which have now all been correct as evidenced above:
+#### HTML
+- Stray divs were present at the end of the footer sections of all pages.
+- There was an unused h3 element that wrapper the Logo image in all footer elements.
+- None of the logo images had alt attributes.
+#### CSS
+- The font-family styling for the 'Book Now' button on the hero image was selected to the root variable primary-color rather than primary-font.
+- Removed one commented out element.
+
+## Improvements 
+- An improvement to the site which could have been achieved with more time would be to include a testimonial section/page. This could inlcude a photo gallery of past clients (pups).
+- A map below the footer could have been included to show clients exactly where the salon is located.
+- The booking form does not connect or submit data to a backend system. In a future update, this booking form could be integrated with the salons back office system for a seamless booking experience for the business and client.
+
+## Technologies
+This project was developed using HTML and CSS languages. The site is version-controlled by Git and hosted on Github Pages.
+
+## Credits 
+Throughout the site build I useed the following sources:
+- [Unsplash.com](https://unsplash.com/) for images
+- [Pexels.com](https://www.pexels.com/) for images
+- [W3Schools.com](https://www.w3schools.com/)
+- [Bootstap.com](https://getbootstrap.com/)
+- References from the Code Instutute Boardwalk Games Project

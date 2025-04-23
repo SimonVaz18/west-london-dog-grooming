@@ -22,4 +22,4 @@ West London Dog Grooming is a modern, mobile-responsive website for a profession
 
 The goal is to offer pet owners a smooth and informative user experience while promoting the business's caring and high-quality approach.
 
-assets/images/amiresponsive.png
+(assets/images/amiresponsive.png)

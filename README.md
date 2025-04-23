@@ -120,3 +120,8 @@ At the bottom of every page is a fully featured footer. This contains contact de
 ![Desktop-footer](assets/images/desktop-footer.png)
 
 ## Testing 
+
+
+## Code Validation
+
+### HTML Validation

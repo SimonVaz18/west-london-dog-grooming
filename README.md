@@ -5,5 +5,13 @@ Project 1 - Simon Vaz
 
 ## Table of Contents
 
-- [Overview] (#overview)
-- [User Goals] (#user-goals)
+- [Overview] 
+- [User Goals] 
+- [Business Goals]
+- [Features]
+- [Technologies Used]
+- [Testing]
+- [Bugs]
+- [Future Improvements]
+- [Deployment]
+- [Credits]

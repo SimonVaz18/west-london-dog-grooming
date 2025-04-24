@@ -22,7 +22,7 @@ Project 1 - Simon Vaz
 
 ## Overview
 
-West London Dog Grooming is a modern, mobile-responsive website for a professional dog grooming business located in Acton, West London. The website is designed to clearly present grooming services, opening hours, and contact information, with a built-in form to facilitate appointment bookings.
+West London Dog Grooming is a modern, mobile-responsive website for a professional dog grooming business located in Acton, West London. The website is designed to clearly present grooming services, opening hours and contact information, with a built-in form to facilitate appointment bookings.
 
 The goal is to offer pet owners a smooth and informative user experience while promoting the business's caring and high-quality approach.
 

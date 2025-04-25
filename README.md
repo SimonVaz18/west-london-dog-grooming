@@ -52,7 +52,7 @@ The goal is to offer pet owners a smooth and informative user experience while p
 
 ## Features 
 
-The features for this website were chosen to prioritise ease of use and clarity to the user, ensuring information is presented in a concise and accessable manner to the end user. 
+The features for this website were chosen to prioritise ease of use and clarity to the user, ensuring information is presented in a concise and accessible manner to the end user. 
 
 ### Navigation Menu 
 
@@ -67,7 +67,7 @@ The website features a responsive fixed navigation bar for easy access to the va
 
 ### Hero Section
 
-A hero section has been included with the intent of introducing the brand immediately. It shows the business' name followed by a slogan. It also includes a 'Book Now' button to clearly display one of the key functions of the website but also to allow regular customers easy access to the booking form thus saving time.
+A hero section has been included with the intent of introducing the brand immediately. It shows the business's name followed by a slogan. It also includes a 'Book Now' button to clearly display one of the key functions of the website but also to allow regular customers easy access to the booking form thus saving time.
 
 ### Mobile Hero Section
 ![mobile-hero](assets/images/mobile-hero.png)
@@ -77,7 +77,7 @@ A hero section has been included with the intent of introducing the brand immedi
 ### About Section
 The about section allows visitors to learn about the business by giving a brief overview of the skills and services provided.
 - The section is split into two sub-sections, the first having a brief text description and the second having a carousel of dog grooming related images.
-- It is hoped this section provides a stylish, boutique feel which is inline with the business' philosophy
+- It is hoped this section provides a stylish, boutique feel which is inline with the business's philosophy
 - This section is also fully responsive. On larger screens both sub-sections appear side by side where as on smaller devices they're stacked
 - The carousel has auto-slides as well as manual buttons to view the selection of images
 
@@ -87,11 +87,11 @@ The about section allows visitors to learn about the business by giving a brief 
 ![desktop-about](assets/images/desktop-about.png)
 
 ### Services/Prices Section
-The Services/Prices page is separate from the home page. It allows users to browse dog grooming packages and prices on the dedicate page. 
+The Services/Prices page is separate from the home page. It allows users to browse dog grooming packages and prices on the dedicated page. 
 - Two sections are shown on this page with both containing a group of four cards. All card templates use Bootstrap 5.3.
-- The first set of cards display the services the business offer. These move up from left to right from least complex to more complex service.
+- The first set of cards display the services the business offers. These move up from left to right from least complex to most complex service.
 - The second set of cards show the price of the above services depending on the size of the dog. Again, they move from left to right from smallest to biggest.
-- A button is shown on all cards which will direct users to the booking form once they have browsed the business' offerings.
+- A button is shown on all cards which will direct users to the booking form once they have browsed the business's offerings.
 - All cards are fully responsive to all screensizes as shown below
 
 ### Mobile Services Section
@@ -101,7 +101,7 @@ The Services/Prices page is separate from the home page. It allows users to brow
 
 ### Booking Form 
 When a user selects the 'Book Now' link on either the hero image or any of the Services/Prices cards, they are taken to a booking form.
-- The booking form collect the users name, contact details, pet information and their preferred service/time.
+- The booking form collects the users name, contact details, pet information and their preferred service/time.
 - All input fields apart from the Additional Notes field are required to ensure all essential information is collected.
 - The form style is in-keeping with the wider website style. 
 - Once all compulsory fields are filled and the user submits, a thank you page is shown to confirm to the user their booking request has been successfully sent.
@@ -111,9 +111,9 @@ When a user selects the 'Book Now' link on either the hero image or any of the S
 ![thank-you-page](assets/images/thank-you-page.png)
 
 ## Footer Section 
-At the bottom of every page is a fully featured footer. This contains contact details, business hours, social media links and the business' full address with a recognisable location pin for added clarity.
-- The logo is displayed to the left of the other content in the footer, similarly to the navbar.
-- The opening hours are displayed in a borderless tableb with rows becoming highlighted if hovered over.
+At the bottom of every page is a fully featured footer. This contains contact details, business hours, social media links and the business's full address with a recognisable location pin for added clarity.
+- The logo is displayed to the left of the other content in the footer, similar to the navbar.
+- The opening hours are displayed in a borderless table with rows becoming highlighted if hovered over.
 - Social media links also change colour when hovered, with colours chosen for a sleek feel. 
 
 ### Mobile Footer Section
@@ -206,17 +206,17 @@ The site has been tested across multiple browsers including Chrome, Safari and E
 </table>
 
 ## HTML/CSS
-When running the website through the HTML/CSS checkers, a few issues were found which have now all been correct as evidenced above:
+When running the website through the HTML/CSS checkers, a few issues were found which have now all been corrected as evidenced above:
 #### HTML
 - Stray divs were present at the end of the footer sections of all pages.
-- There was an unused h3 element that wrapper the Logo image in all footer elements.
+- There was an unused h3 element that wrapped the Logo image in all footer elements.
 - None of the logo images had alt attributes.
 #### CSS
 - The font-family styling for the 'Book Now' button on the hero image was selected to the root variable primary-color rather than primary-font.
 - Removed one commented out element.
 #### Lighthouse
 - I found the quality of the images across all pages was too high, thus affecting the performance score of the website. I reduced the quality and size of the images without reducing their effect to increase the performance score.
-- There was a contrast error with thee hero text and the hero image. I added a shaded background to the text to reduce this.
+- There was a contrast error with the hero text and the hero image. I added a shaded background to the text to reduce this.
 
 ## Improvements 
 - An improvement to the site which could have been achieved with more time would be to include a testimonial section/page. This could inlcude a photo gallery of past clients (pups).

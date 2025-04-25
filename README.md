@@ -138,6 +138,7 @@ The site has been tested across multiple browsers including Chrome, Safari and E
 ![lighthouse-homepage](assets/images/lighthouse-home-page.png)
 
 ### Lighthouse Test Desktop - Services/Prices
+![lighthouse-services/prices](assets/images/lighthouse-services-prices.png)
 
 ### Wave Accessibility 
 ![wave-accessibility](assets/images/wave-accessibility-home.png)

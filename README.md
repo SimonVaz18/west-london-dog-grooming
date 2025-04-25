@@ -134,9 +134,11 @@ The site has been tested across multiple browsers including Chrome, Safari and E
 
 ## Lighthouse Testing
 
-### Lighthouse Test Mobile - Homepage
-
 ### Lighthouse Test Desktop - Homepage
+![lighthouse-homepage](assets/images/lighthouse-home-page.png)
+
+### Lighthouse Test Desktop - Services/Prices
+
 
 ## Testing Errors/Bugs found 
 When running the website through the HTML/CSS checkers, a few issues were found which have now all been correct as evidenced above:
@@ -147,6 +149,9 @@ When running the website through the HTML/CSS checkers, a few issues were found 
 #### CSS
 - The font-family styling for the 'Book Now' button on the hero image was selected to the root variable primary-color rather than primary-font.
 - Removed one commented out element.
+#### Lighthouse
+- I found the quality of the images across all pages was too high, thus affecting the performance score of the website. I reduced the quality and size of the images without reducing their effect to increase the performance score
+- 
 
 ## Improvements 
 - An improvement to the site which could have been achieved with more time would be to include a testimonial section/page. This could inlcude a photo gallery of past clients (pups).

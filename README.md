@@ -139,8 +139,72 @@ The site has been tested across multiple browsers including Chrome, Safari and E
 
 ### Lighthouse Test Desktop - Services/Prices
 
+### Wave Accessibility 
+![wave-accessibility](assets/images/wave-accessibility-home.png)
+
 
 ## Testing Errors/Bugs found 
+
+### Manual Testing
+<table>
+    <thead>
+        <tr>
+        <th>Test No.</th>
+        <th>Feature</th>
+        <th>Test Action</th>
+        <th>Expected Outcome</th>
+        <th>Pass/Fail</th>
+        </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Navigation Bar</td>
+        <td>Click each nav link (Home, About, Services/Prices, Contact)</td>
+        <td>Scrolls or redirects to correct section/page</td>
+        <td>Pass</td>
+    </tr>    
+    <tr>
+        <td>2</td>
+        <td>Responsive Layout</td>
+        <td>Resize browser/test on mobile device</td>
+        <td>Content stacks correctly and remains legible</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Service Section</td>
+        <td>View all service cards</td>
+        <td>Each card shows correct title, description, and image</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Prices Section</td>
+        <td>View all pricing cards for different dog sizes</td>
+        <td>All cards display prices and service tiers correctly</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Booking Links</td>
+        <td>Click all "Book Now" buttons on all cards</td>
+        <td>Opens booking page in new tab</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Footer Contact Links</td>
+        <td>Click each social media icon</td>
+        <td>Opens correct social media page in new tab</td>
+        <td>Pass</td>
+    </tr>
+
+</tbody>
+
+</table>
+
+## HTML/CSS
 When running the website through the HTML/CSS checkers, a few issues were found which have now all been correct as evidenced above:
 #### HTML
 - Stray divs were present at the end of the footer sections of all pages.
@@ -150,8 +214,8 @@ When running the website through the HTML/CSS checkers, a few issues were found 
 - The font-family styling for the 'Book Now' button on the hero image was selected to the root variable primary-color rather than primary-font.
 - Removed one commented out element.
 #### Lighthouse
-- I found the quality of the images across all pages was too high, thus affecting the performance score of the website. I reduced the quality and size of the images without reducing their effect to increase the performance score
-- 
+- I found the quality of the images across all pages was too high, thus affecting the performance score of the website. I reduced the quality and size of the images without reducing their effect to increase the performance score.
+- There was a contrast error with thee hero text and the hero image. I added a shaded background to the text to reduce this.
 
 ## Improvements 
 - An improvement to the site which could have been achieved with more time would be to include a testimonial section/page. This could inlcude a photo gallery of past clients (pups).

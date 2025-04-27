@@ -218,10 +218,13 @@ When running the website through the HTML/CSS checkers, a few issues were found 
 - I found the quality of the images across all pages was too high, thus affecting the performance score of the website. I reduced the quality and size of the images without reducing their effect to increase the performance score.
 - There was a contrast error with the hero text and the hero image. I added a shaded background to the text to reduce this.
 
-## Improvements 
+## Bugs/Improvements 
+- When viewing the lighthouse score on the home page, there was a contrast issue with the hero text and hero image. As a result, I added a translucent shadded background color so the text would be more prominent.
+- The lighthouse score also indicated contrast with the logo in the navebar and the background color. To fix this, I changed the color of the logo to my secondary color thus making it more legible.
 - An improvement to the site which could have been achieved with more time would be to include a testimonial section/page. This could inlcude a photo gallery of past clients (pups).
 - A map below the footer could have been included to show clients exactly where the salon is located.
 - The booking form does not connect or submit data to a backend system. In a future update, this booking form could be integrated with the salons back office system for a seamless booking experience for the business and client.
+
 
 ## Technologies
 This project was developed using HTML and CSS languages. The site is version-controlled by Git and hosted on Github Pages.

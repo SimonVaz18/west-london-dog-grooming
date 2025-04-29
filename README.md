@@ -1,7 +1,7 @@
 # West London Dog Grooming
 Project 1 - Simon Vaz
 
-[View live github project] +++++++++++++++++++++++++++
+View live github project (https://simonvaz18.github.io/west-london-dog-grooming/)
 
 ---
 

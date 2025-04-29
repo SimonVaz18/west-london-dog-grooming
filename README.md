@@ -225,9 +225,15 @@ When running the website through the HTML/CSS checkers, a few issues were found 
 - A map below the footer could have been included to show clients exactly where the salon is located.
 - The booking form does not connect or submit data to a backend system. In a future update, this booking form could be integrated with the salons back office system for a seamless booking experience for the business and client.
 
-
 ## Technologies
-This project was developed using HTML and CSS languages. The site is version-controlled by Git and hosted on Github Pages.
+This project was developed using HTML and CSS languages. The site is version-controlled by Git and hosted on Github Pages. VS Code was used as the code editor environment.
+
+## Deployment 
+This site was deployed to Github pages. The steps to deploy are as follows:
+- Once code was ready to be pushed to Github, I used the commandsv 'Git add', 'Git commit -m "-"', 'Git push'
+- In the Github repository, navigate to the Settings tab
+- Select the pages window and fthe source section drop-down menu, select the Master Branch
+- Now the page will automatically be refreshed and shown
 
 ## Credits 
 Throughout the site build I useed the following sources:
